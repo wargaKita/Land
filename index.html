@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WargaKita — Solusi Digital RT</title>
+  <meta name="description" content="WargaKita memudahkan administrasi RT: e-surat, keuangan, pengumuman, dan keamanan dalam satu aplikasi." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="container nav">
+    <div class="brand">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M12 3l9 6v12h-6v-6H9v6H3V9l9-6z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+      </svg>
+      <span>WargaKita</span>
+    </div>
+    <div class="nav-links">
+      <a href="#tentang" data-nav>Tentang</a>
+      <a href="#fitur" data-nav>Fitur</a>
+      <a href="#tampilan" data-nav>Tampilan</a>
+      <a href="#testi" data-nav>Apa Kata Mereka</a>
+      <a href="#kontak" class="btn btn--sm" data-nav>Hubungi</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container hero__inner">
+      <div class="hero__copy">
+        <h1>
+          Urus lingkungan RT jadi
+          <span class="grad">lebih mudah</span> &
+          <span class="grad">ramah warga</span>
+        </h1>
+        <p class="lead">
+          E-surat, keuangan, pengumuman, hingga panic button—
+          dalam satu aplikasi yang rapi, aman, dan mudah dipelajari pengurus maupun warga.
+        </p>
+        <div class="hero__cta">
+          <a href="#demo" class="btn">Coba Demo</a>
+          <a href="#fitur" class="btn btn--ghost">Lihat Fitur</a>
+        </div>
+        <ul class="hero__badges">
+          <li>✨ Tampilan modern & bersih</li>
+          <li>🔒 Akses terverifikasi</li>
+          <li>📱 Siap digunakan di mobile</li>
+        </ul>
+      </div>
+      <div class="hero__mock">
+        <div class="phone shadow">
+          <img src="assets/login.png" alt="Tampilan Login WargaKita" />
+          <div class="phone__glow"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- TENTANG -->
+  <section id="tentang" class="section">
+    <div class="container">
+      <h2>Mengapa WargaKita?</h2>
+      <p class="section__lead">
+        WargaKita membantu pengurus dan warga bekerja lebih efektif dengan proses digital yang jelas,
+        arsip rapi, serta komunikasi dua arah yang tertata.
+      </p>
+      <div class="features grid three">
+        <div class="feature">
+          <div class="icon">🏷️</div>
+          <h3>Administrasi Efisien</h3>
+          <p>Permohonan e-surat tercatat otomatis, mudah dilacak, dan siap ditandatangani digital.</p>
+        </div>
+        <div class="feature">
+          <div class="icon">📊</div>
+          <h3>Transparansi Keuangan</h3>
+          <p>Kas masuk/keluar tercatat rapi, dapat diekspor sebagai laporan untuk warga.</p>
+        </div>
+        <div class="feature">
+          <div class="icon">📣</div>
+          <h3>Informasi Tepat Sasaran</h3>
+          <p>Pengumuman penting terkirim via notifikasi ke warga yang terdaftar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FITUR -->
+  <section id="fitur" class="section alt">
+    <div class="container">
+      <h2>Fitur Unggulan</h2>
+      <div class="grid two">
+        <div class="card card--list">
+          <h4>✔ E-Surat Pengantar</h4>
+          <p>Domisili, usaha, dan keperluan lain cukup dari ponsel tanpa harus bolak-balik.</p>
+          <h4>✔ Keuangan RT</h4>
+          <p>Pembukuan kas, riwayat iuran, dan ringkasan bulanan yang mudah diaudit.</p>
+          <h4>✔ Pengumuman & Notifikasi</h4>
+          <p>Jadwal kerja bakti, rapat, dan informasi penting langsung ke aplikasi warga.</p>
+          <h4>✔ Panic Button</h4>
+          <p>Notifikasi darurat serentak ke warga dan pengurus dalam satu ketukan.</p>
+        </div>
+        <div class="card">
+          <h3 class="mb-8">Alur Singkat Penggunaan</h3>
+          <ol class="steps">
+            <li>Warga melakukan <b>registrasi & login</b>.</li>
+            <li>Warga mengajukan <b>e-surat</b> atau melihat <b>pengumuman</b>.</li>
+            <li>Pengurus <b>verifikasi</b> dan menandatangani secara digital.</li>
+            <li>Warga <b>menerima & mengunduh</b> dokumen resmi di aplikasi.</li>
+          </ol>
+          <a id="demo" href="#cta" class="btn mt-12">Coba Demo (UI Statis)</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TAMPILAN -->
+  <section id="tampilan" class="section">
+    <div class="container">
+      <h2>Tampilan Aplikasi</h2>
+      <p class="section__lead">Preview antarmuka WargaKita di perangkat mobile.</p>
+      <div class="screens grid two">
+        <div class="phone shadow">
+          <img src="assets/login.png" alt="Login WargaKita" />
+        </div>
+        <div class="phone shadow">
+          <img src="assets/home.png" alt="Beranda WargaKita" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTI -->
+  <section id="testi" class="section alt">
+    <div class="container">
+      <h2>Apa Kata Mereka</h2>
+      <div class="testi">
+        <div class="track animate">
+          <div class="slide">
+            <p>“WargaKita membantu aktivitas warga jadi lebih terorganisir.”</p>
+            <span>— Sari, Sekretaris RW 04</span>
+          </div>
+          <div class="slide">
+            <p>“Lebih efisien, informatif, dan memudahkan koordinasi iuran maupun pengumuman.”</p>
+            <span>— Dimas, Ketua RT 07</span>
+          </div>
+          <div class="slide">
+            <p>“Keuangan dan informasi jadi transparan. Pengurus dan warga sama-sama terbantu.”</p>
+            <span>— Maya, Warga Blok F</span>
+          </div>
+          <!-- Duplikasi untuk loop mulus -->
+          <div class="slide">
+            <p>“WargaKita membantu aktivitas warga jadi lebih terorganisir.”</p>
+            <span>— Sari, Sekretaris RW 04</span>
+          </div>
+          <div class="slide">
+            <p>“Lebih efisien, informatif, dan memudahkan koordinasi iuran maupun pengumuman.”</p>
+            <span>— Dimas, Ketua RT 07</span>
+          </div>
+          <div class="slide">
+            <p>“Keuangan dan informasi jadi transparan. Pengurus dan warga sama-sama terbantu.”</p>
+            <span>— Maya, Warga Blok F</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta" class="section cta">
+    <div class="container cta__box">
+      <h2>Mulai Digitalisasi Lingkunganmu Hari Ini</h2>
+      <p>Bangun lingkungan yang tertib, transparan, dan responsif bersama WargaKita.</p>
+      <a href="#kontak" class="btn btn--lg">Diskusikan dengan Tim CivilHub</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="kontak" class="footer">
+    <div class="container footer__inner">
+      <div>
+        <strong>WargaKita x CivilHub</strong>
+        <p>
+          Email: info@wargakita.id<br />
+          Telepon: +62 812-3456-7890
+        </p>
+      </div>
+      <div class="small">
+        © 2023 CivilHub. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- NAV ACTIVE STATE SCRIPT -->
+  <script>
+    // Tambah kelas aktif di navbar saat link diklik
+    const navLinks = document.querySelectorAll('.nav-links [data-nav]');
+
+    function setActiveLink(targetId) {
+      navLinks.forEach(link => {
+        const href = link.getAttribute('href');
+        const id = href && href.startsWith('#') ? href.slice(1) : null;
+        if (id && id === targetId) {
+          link.classList.add('is-active');
+        } else if (!targetId && href === '#tentang') {
+          // default
+          link.classList.add('is-active');
+        } else if (id !== targetId) {
+          link.classList.remove('is-active');
+        }
+      });
+    }
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        const href = link.getAttribute('href');
+        if (href && href.startsWith('#')) {
+          const id = href.slice(1);
+          setActiveLink(id);
+        }
+      });
+    });
+
+    // Opsi: set aktif berdasarkan hash saat halaman dimuat
+    window.addEventListener('load', () => {
+      const hash = window.location.hash.replace('#', '');
+      if (hash) setActiveLink(hash);
+      else setActiveLink('tentang');
+    });
+  </script>
+</body>
+</html>
